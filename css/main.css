@@ -83,6 +83,20 @@ main nav ul li img{
     align-items: center;
 }
 
+.bannerController .previousBtn{
+    border-radius: 0 4px 4px 0;
+}
+
+.bannerController .nextBtn{
+    border-radius: 4px 0 0 4px;
+}
+
+.bannerController button:hover{
+    background-color: var(--primaryBgColor);
+    border-color: var(--primaryBgColor);
+    color: var(--gray);
+}
+
 .banner .imageSet{
     height: 100%;
     width: 100%;
@@ -145,7 +159,16 @@ main nav ul li img{
 .ads{
     width: calc((100% / 3) - 4vw);
     height: 100%;
-    background-color: green;
+    cursor: pointer;
+}
+
+.ads:hover{
+    box-shadow: 1px 1px 8px var(--primaryColor);
+}
+
+.ads img{
+    height: 100%;
+    width: 100%;
 }
 
 .containerHeader{
