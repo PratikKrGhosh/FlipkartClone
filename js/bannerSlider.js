@@ -25,4 +25,6 @@
 
         imageSet.style.transform = `translateX(-${imageIndex * 100}%)`;
     }
+    // adding auto sliding functionality
+    setInterval(slideNext, 3000);
 })();
